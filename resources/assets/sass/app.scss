@@ -64,3 +64,12 @@ body{
     cursor: pointer;
   }
 }
+
+/* User profile page */
+.user-show-page {
+  .user-info {
+    .thumbnail {
+      margin-bottom: 0;
+    }
+  }
+}
