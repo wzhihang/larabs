@@ -67,6 +67,14 @@
                                     编辑资料
                                 </a>
                             </li>
+                            @can('manage_contents')
+                            <li>
+                                <a href="{{ url( config('administrator.uri') ) }}">
+                                    <span class="glyphicon glyphicon-dashboard"></span>
+                                    管理后台
+                                </a>
+                            </li>
+                            @endcan
                             <li>
                                 <a href="{{ route('logout') }}"
                                    onclick="event.preventDefault();
