@@ -39,6 +39,11 @@ return array(
     'menu' => [
         '用户与权限' => [
             'users',
+
+        ],
+
+        '站点管理' => [
+            'links',
         ],
     ],
 
